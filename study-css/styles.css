@@ -1,0 +1,48 @@
+h1 {
+    color: brown;
+}
+p {
+    color: blue;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+
+.p-texto {
+    color: lightgreen;
+}
+
+#titulo-app {
+    color: blueviolet;
+    font-size: 40px;
+}
+
+/* Especificidade */
+
+div p {
+    color: red;
+}
+
+.p-dentro-da-div {
+    color: blue;
+}
+
+#p-super-especifico{
+    color: green;
+}
+
+.nome {
+    color: orange;
+}
+
+.hexa {
+    color: #121212;
+}
+
+.rgba {
+    color: rgba(17, 197, 214, .2);/*.2 é a tranparência*/
+    font-size: 40px;
+}
