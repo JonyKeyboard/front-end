@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Raleway";
+}
+/*BARRA LATERAL*/
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 230px;
+    height: 100%;
+    background: #120f2ee3;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    line-height: 60px;
+    background-color: #e06311;
+}
+
+.sidebar ul li a{
+    display: block;
+    color: white;
+    line-height: 60px;
+    padding-left: 49px;
+}
+
+.sidebar ul li a:hover{
+    border-left: 4px solid #e06311;
+    transition: .5s;
+    background: #161737;
+    counter-reset: white;
+}
+
+/*CONTEÚDO*/
+.main{
+    margin-left: 280px;
+    padding-top: 38px;
+    padding-right: 38px;
+}
+
+.titulo-main{
+    margin-bottom: 30px;
+}
+.thumb{
+    width: 30%;
+    margin-right: 3%;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.title-article{
+    font-weight: 400;
+}
+
+.excerpt{
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.excerpt_two{
+    margin-top: 10px;
+    text-align: justify;
+}
