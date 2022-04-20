@@ -46,3 +46,16 @@ div p {
     color: rgba(17, 197, 214, .2);/*.2 é a tranparência*/
     font-size: 40px;
 }
+
+/* Backgrounds */
+
+.div-background {
+    background-image: url('img/por-do-sol.jpg');
+    height: 300px;
+}
+
+.titulo-background {
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+}
