@@ -1,0 +1,28 @@
+.example {
+    color: #FFF;
+   
+}
+
+.example-item {
+    display: block;
+    width: 33.333%; /* necessário para usar o margin-left: auto */
+    height: 150px;
+    text-align: center; /* alinhado em relação a li */
+}
+
+.example-item_first {
+    background-color: #FAA116;
+}
+
+.example-item_second {
+    background-color: #57C7C3;
+    margin-left: auto;
+}
+
+.example-item_third {
+    background-color: #3B97D3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* block ocupa toda a linha */

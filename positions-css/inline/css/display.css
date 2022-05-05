@@ -1,0 +1,22 @@
+.example {
+    color: #FFF;
+    text-align: center;
+}
+
+.example-item {
+    /* inline não pode setar altura e largura */
+    display: inline;
+}
+
+.example-item_first {
+    background-color: #FAA116;
+}
+
+.example-item_second {
+    background-color: #57C7C3;
+}
+
+.example-item_third {
+    background-color: #3B97D3;
+}
+
