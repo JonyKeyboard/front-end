@@ -22,7 +22,7 @@
                             <td scope="row" class="col-id"><?= $contact["id"] ?></td>
                             <td scope="row"><?= $contact["name"] ?></td>
                             <td scope="row"><?= $contact["phone"] ?></td>
-                            <td scope="actions">
+                            <td class="actions">
                                 <a href="<?= $BASE_URL ?>show.php?id=<?= $contact["id"] ?>"><i class="fas fa-eye check-icon"></i></a>
                                 <a href="<?= $BASE_URL ?>edit.php?id=<?= $contact["id"] ?>"><i class="fas fa-edit edit-icon"></i></a>
                                 <form class="delete-form" action="<?= $BASE_URL ?>config/process.php" method="POST">
