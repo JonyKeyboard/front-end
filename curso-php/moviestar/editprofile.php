@@ -37,7 +37,7 @@
             <label for="email">E-mail:</label>
             <input type="text" readonly class="form-control disabled" id="email" name="email" placeholder="Digite o seu email" value="<?= $userData->email ?>">
           </div>
-          <input type="submit" class="btn form-btn" value="Alterar">
+          <input type="submit" class="btn card-btn" value="Alterar">
         </div>
         <div class="col-md-4">
           <div id="profile-image-container" style="background-image: url('<?= $BASE_URL ?>/img/users/<?= $userData->image ?>')"></div>
@@ -52,6 +52,24 @@
         </div>
       </div>
     </form>
+    <div class="row" id="change-password-container">
+      <div class="col-md-4">
+        <h2>Alterar a senha:</h2>
+        <p class="page-description">Digite a nova senha e confirme para alterar:</p>
+        <form action="<?= $BASE_URL ?>/user_processs.php" method="POST">
+          <input type="hidden" name="type" value="changepassword">
+          <div class="form-group">
+            <label for="password">Senha:</label>
+            <input type="text" class="form-control" id="password" name="password" placeholder="Digite a nova senha">
+          </div>
+          <div class="form-group">
+            <label for="confirmepassword">Confirme a senha:</label>
+            <input type="text" class="form-control" id="confirmepassword" name="confirmepassword" placeholder="Confirme a senha">
+          </div>
+          <input type="submit" class="btn card-btn" value="Alterar Senha">
+        </form>
+      </div>
+    </div>
   </div>
 </div>
 
