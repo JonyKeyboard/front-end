@@ -16,6 +16,8 @@
     $userData->image = "user.png";
   }
 
+  //print_r($userData);
+
 ?>
 <div id="main-container" class="container-fluid">
   <div class="col-md-12">

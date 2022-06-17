@@ -45,10 +45,9 @@ if($type === "update") {
 
             
             // Checar se jpg
-            if(in_array($image, $jpgArray)){
+            if(in_array($image["type"], $jpgArray)){
 
                 $imageFile = imagecreatefromjpeg($image["tmp_name"]);
-                print_r($imageFile);exit;
 
             // image is png
             } else {
@@ -64,7 +63,7 @@ if($type === "update") {
         } else {
             
             $message->setMessage("Tipo de imagem inválida, insira png ou jpg!", "error", "back");
-            echo "Entrou parça"; exit;
+        
         }
 
     }
