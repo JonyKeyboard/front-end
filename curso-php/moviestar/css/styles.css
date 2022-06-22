@@ -221,6 +221,10 @@
     margin-top: 30px;
 }
 
+#add-movie-container .card-btn{
+    width: auto;
+}
+
 /* NEW MOVIE */
 .new-movie-container {
     text-align: center;
