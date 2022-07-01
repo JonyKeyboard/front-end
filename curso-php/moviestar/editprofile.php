@@ -60,11 +60,11 @@
           <input type="hidden" name="type" value="changepassword">
           <div class="form-group">
             <label for="password">Senha:</label>
-            <input type="text" class="form-control" id="password" name="password" placeholder="Digite a nova senha">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Digite a nova senha">
           </div>
           <div class="form-group">
-            <label for="confirmepassword">Confirme a senha:</label>
-            <input type="text" class="form-control" id="confirmepassword" name="confirmepassword" placeholder="Confirme a senha">
+            <label for="confirmpassword">Confirme a senha:</label>
+            <input type="password" class="form-control" id="confirmpassword" name="confirmpassword" placeholder="Confirme a senha">
           </div>
           <input type="submit" class="btn card-btn" value="Alterar Senha">
         </form>
