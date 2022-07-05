@@ -159,8 +159,8 @@
                 title = :title,
                 description = :description,
                 image = :image,
-                category = :category,
                 trailer = :trailer,
+                category = :category,
                 length = :length 
                 WHERE id = :id");
 
@@ -170,7 +170,7 @@
             $stmt->bindParam(":category", $movie->category);
             $stmt->bindParam(":trailer", $movie->trailer);
             $stmt->bindParam(":length", $movie->length);
-            $stmt->bindParam(":id", $movie->users_id);
+            $stmt->bindParam(":id", $movie->id);
 
             $stmt->execute();
 

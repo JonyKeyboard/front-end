@@ -143,7 +143,9 @@ if($type === "create"){
                         }
 
                         // Gerando nome da imagem
-                        $imageName = $movieData->imageGenerateName();
+                        $movie = new Movie();
+                        
+                        $imageName = $movie->imageGenerateName();
 
                         imagejpeg($imageFile, "./img/movies/". $imageName, 100);
 
