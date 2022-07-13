@@ -12,8 +12,10 @@
 
     interface ReviewDAOInterface {
 
-        public function buildMovie($data);
-        public function create(Movie $movie);
-        public function update(Movie $movie);
+        public function buildReview($data);
+        public function create(Review $review);
+        public function getMoviesReview($id);
+        public function hasAlreadyReviewed($id, $userId);
+        public function getRatings($id);
 
     }
