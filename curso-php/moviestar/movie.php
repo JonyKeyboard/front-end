@@ -44,13 +44,15 @@
         $userOwnsMovie = true;  
     }
 
+    // Resgatar as reviews do filme
+    $alreadyReviewed = $reviewDao->hasAlreadyReviewed($id, $userData->id);
+
   }
 
   // Resgatar as reviews do filme
   $movieReviews = $reviewDao->getMoviesReview($id);
 
-  // Resgatar as reviews do filme
-  $alreadyReviewed = false;
+
   ?>
 
   <div id="main-container" class="container-fluid">
