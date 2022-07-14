@@ -33,7 +33,7 @@
 // Checar se o filme tem imagem
 if($movie->image == ""){
     $movie->image = "movie_cover.jpg";
-    }
+}
     
 ?>
 <div id="main-container" class="container-fluid">
