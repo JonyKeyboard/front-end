@@ -417,6 +417,16 @@
     text-decoration: none;
 }
 
+/* Search */
+#search-title {
+    font-size: 30px;
+}
+
+#search-result,
+.back-link {
+    color: #F5C518;
+}
+
 /* FOOTER */
 #footer {
     background-color: #000;
